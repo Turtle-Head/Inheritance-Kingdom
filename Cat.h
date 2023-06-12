@@ -7,8 +7,11 @@ class Cat :
 protected:
 	std::string sound, name;
 public:
+	int meowCount;
+	Cat(std::string name, std::string sound);
 	virtual void makeSound();
 	virtual void getName();
-	virtual void setName(std::string name);
+	virtual void setName();
 	virtual void setSound();
 };
+

@@ -2,9 +2,11 @@
 #include <iostream>
 #include <string>
 
+Dog::Dog(std::string name, std::string sound):name(name), sound(sound){}
+
 void Dog::makeSound()
 {
-	std::cout << sound << std::endl;
+	std::cout << name << " says " << sound << std::endl;
 }
 
 void Dog::getName()

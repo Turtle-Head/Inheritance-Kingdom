@@ -1,8 +1,11 @@
 #include "Animal.h"
 #include <iostream>
+
+//Animal::animal(std::string name, std::string sound){}
+
 void Animal::makeSound()
 {
-	std::cout << "\n\n" << Animal::name << "Makes sound" << std::endl;
+	std::cout << "\n" << Animal::name << " " << Animal::sound << std::endl;
 }
 
 void Animal::getName()

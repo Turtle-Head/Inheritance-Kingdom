@@ -1,7 +1,2 @@
-﻿  Dog.cpp
-  Kingdom.cpp
-C:\Users\Stark\Documents\Documents\GitHub\VS Projects\C++\Kingdom\Kingdom\Kingdom.cpp(12,9): error C2661: 'Cat::Cat': no overloaded function takes 2 arguments
-C:\Users\Stark\Documents\Documents\GitHub\VS Projects\C++\Kingdom\Kingdom\Kingdom.cpp(12,9): message : while trying to match the argument list '(const char [6], const char [8])'
-C:\Users\Stark\Documents\Documents\GitHub\VS Projects\C++\Kingdom\Kingdom\Kingdom.cpp(13,9): error C2661: 'Dog::Dog': no overloaded function takes 2 arguments
-C:\Users\Stark\Documents\Documents\GitHub\VS Projects\C++\Kingdom\Kingdom\Kingdom.cpp(13,9): message : while trying to match the argument list '(const char [7], const char [6])'
-  Generating Code...
+﻿  Cat.cpp
+  Kingdom.vcxproj -> C:\Users\Stark\Documents\Documents\GitHub\VS Projects\C++\Kingdom\Kingdom\x64\Debug\Kingdom.exe

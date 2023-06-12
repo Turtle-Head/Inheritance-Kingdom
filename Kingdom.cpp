@@ -9,9 +9,12 @@
 
 int main()
 {
-	Cat cat("Meow\n","Tom Cat");
-	Dog dog("Bark!\n","Doggy");
-
+	Cat cat("Dante","Meow\n");
+	Dog dog("Pablo","Bark!\n");
+	cat.getName();
+	cat.makeSound();
+	dog.getName();
+	dog.makeSound();
 
 }
 
